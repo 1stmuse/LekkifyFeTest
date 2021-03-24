@@ -76,11 +76,11 @@ export const AddProduct:React.FC =({history}) =>{
                             value={imgUri}
                         />
                         <FormHelperText>
-                            {uploading && <Text>uploading</Text> }
+                            {uploading && <Text fontSize={15} color='blue.600' >uploading</Text> }
                         </FormHelperText>
                     </FormControl>
                     <Center mt={8}>
-                        <AppButton onClick={addProduct} width={150} text="add" hoverBg='blue' hoverColor="white" />
+                        <AppButton shadow='md' onClick={addProduct} width={150} text="add" hoverBg='blue' hoverColor="white" />
                     </Center>
                 </Box>
                 </Center>

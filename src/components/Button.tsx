@@ -12,12 +12,14 @@ interface buttonProp {
     icon?:React.ReactNode
     width?:string | number
     color?:string
+    shadow?:string
 
 }
 
-export const AppButton: React.FC<buttonProp> =({text, color ,width, bg, mRight, hoverBg, hoverColor, icon, onClick})=>{
+export const AppButton: React.FC<buttonProp> =({shadow, text, color ,width, bg, mRight, hoverBg, hoverColor, icon, onClick})=>{
     return (
         <Button bg={bg} w={width}
+        boxShadow={shadow}
         color={color}
         mr={mRight}
          _hover={{

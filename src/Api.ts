@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios'
 
-const rootUrl: string = 'http://localhost:8080/api'
+const rootUrl: string = 'https://lekkify.herokuapp.com/api'
 
 export const getProducts = async () =>{
     try {

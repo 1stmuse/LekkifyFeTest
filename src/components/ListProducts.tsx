@@ -14,7 +14,7 @@ export const ProductsGrid: React.FC<ProductProps> = ({products, history}) =>{
     if(products.length < 1){
         return (
             <Box w='100%' minH={400} display='flex' justifyContent='center' alignItems='center'>
-                <Text fontSize={30} color='blue.50' fontWeight='bold'>
+                <Text fontSize={30} color='blue.700' fontWeight='bold'>
                     No products to display 
                 </Text>
             </Box>
